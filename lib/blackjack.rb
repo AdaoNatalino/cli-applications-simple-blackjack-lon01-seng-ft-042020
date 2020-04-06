@@ -40,6 +40,7 @@ def hit?(card_total)
   if user != 'h' && user != 's'
     invalid_command
   end
+  
 end
 
 def invalid_command
