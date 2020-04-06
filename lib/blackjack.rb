@@ -7,7 +7,7 @@ def deal_card
   return randon
 end
 
-def display_card_total(num)
+def display_card_total(card_total)
   "Your cards add up to #{card_total}"
 end
 
