@@ -37,10 +37,13 @@ def hit?(card_total)
   if user == 'h'
     card_total += deal_card
   end
+  if user != 'h' && user != 's'
+    invalid_command
+  end
 end
 
 def invalid_command
-  user = get_user_input
+  puts "Please enter a valid command"
 end
 
 #####################################################
