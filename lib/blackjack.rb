@@ -63,6 +63,9 @@ def runner
   initial_round
   prompt_user
   type = get_user_input
-  if type == 
+  if type == 's'
+    prompt_user
+    get_user_input
+  end
 end
     
