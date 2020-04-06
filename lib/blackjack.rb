@@ -62,5 +62,7 @@ def runner
   welcome
   initial_round
   prompt_user
+  type = get_user_input
+  if type == 
 end
     
