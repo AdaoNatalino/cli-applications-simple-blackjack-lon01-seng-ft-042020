@@ -60,12 +60,9 @@ end
 
 def runner
   welcome
-  initial_round
-  prompt_user
-  type = get_user_input
-  if type == 's'
-    prompt_user
-    get_user_input
-  end
+  hand = initial_round
+  display_card_total(hand)
+  hit?(hand)
+  
 end
     
