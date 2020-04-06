@@ -40,7 +40,7 @@ def hit?(card_total)
 end
 
 def invalid_command
-  
+  user = get_user_input
 end
 
 #####################################################
